@@ -1,0 +1,116 @@
+body{
+    background-color: orangered;
+    background-size: cover;
+    background-position: center;
+}
+
+.signinbox{
+    width: 300px;
+    height: 400px;
+    background: #FFF;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0, 0, 20px;
+    text-align: center;
+    font-size: 30px;
+    color: orangered
+}
+
+h2{
+    margin: 5px;
+    padding: 0, 0, 20px;
+    text-align: center;
+    font-size: 22px;
+    color: orangered
+    
+}
+.signinbox p{
+    margin-left: 20px;
+    margin-top: 0; margin-bottom: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: darkblue
+}
+
+h3{
+    margin: 15px;
+    padding: 0, 0, 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: darkblue
+
+}
+
+h4{
+    margin: 15px;
+    padding: 0 0 20ox;
+    font-weight: bold;
+    font-size: 13px;
+    color: orangered
+
+}
+
+.signinbox input{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.signinbox input[type="text"], input[type="password"]
+{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+
+
+}
+
+.signinbox input[type="submit"]
+{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background: darkblue;
+    height: 40px;
+    margin-top: 20px;
+     
+}
+
+.signinbox input[value="Sign In"]
+{
+    text-align: center;
+    color: #FFF
+}
+
+.signinbox a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+    color: darkblue
+}
+
+        
+    
+    
+
+
+
+
+
+
+    
